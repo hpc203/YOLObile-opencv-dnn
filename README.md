@@ -1,4 +1,5 @@
 刚才在微信朋友圈看到关于Yolo目标检测的新的网络：YOLObile
+
 它的paper下载链接是 https://arxiv.org/abs/2009.05697
 github代码地址是 https://github.com/CoCoPIE-Pruning/CoCoPIE-ModelZoo/tree/master/YOLObile
 我把代码和模型.pt文件下载到本地后运行了一下，可以看到它是基于pytorch框架实现的，下载到的.pt文件有245M，这么大，我有些怀疑YOLObile是否真的如paper种所说的“在移动设备上实时检测”。
