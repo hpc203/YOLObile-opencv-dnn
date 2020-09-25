@@ -11,4 +11,4 @@ github代码地址是 https://github.com/CoCoPIE-Pruning/CoCoPIE-ModelZoo/tree/m
 
 链接: https://pan.baidu.com/s/1FsTGBoGuJNYSdGvFSw9Trg 提取码: mc9b
 
-把.weights文件下载完成之后放在本仓库代码的文件夹里，运行main_yolobile.py，就可以看到在一张图片上的检测结果
+把.weights文件下载完成之后放在本仓库代码的文件夹里，运行main_yolobile.py
