@@ -8,7 +8,6 @@ github代码地址是 https://github.com/CoCoPIE-Pruning/CoCoPIE-ModelZoo/tree/m
 方法是本代码仓库里的convert_darknet.py文件，把它拷贝到YOLObile文件夹里，然后运行，程序会读取.cfg文件和.pt文件，最后生成.weights文件。
 有了.cfg文件和.weights文件，我们就可以利用opencv的dnn木块做目标检测，此时就不依赖pytorch框架了。
 .weights文件有245M，无法直接上传到github，百度云盘的下载
-
 链接: https://pan.baidu.com/s/1FsTGBoGuJNYSdGvFSw9Trg 提取码: mc9b
 
 把.weights文件下载完成之后放在本仓库代码的文件夹里，运行main_yolobile.py
