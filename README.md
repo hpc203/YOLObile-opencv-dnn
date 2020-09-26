@@ -17,4 +17,4 @@ github代码地址是 https://github.com/CoCoPIE-Pruning/CoCoPIE-ModelZoo/tree/m
 就会报出
 “RuntimeError: yolov5s.pt is a zip archive (did you mean to use torch.jit.load()?)”
 这样的错误。并且它的网络结构文件是.yaml格式的，不是.cfg格式的，这就无法用opencv的dnn模块做yolov5目标检测了
-因此，我就没有在github上发布使用opencv的dnn模块做yolov5目标检测的程序的
+因此，我就没有在github上发布使用opencv的dnn模块做yolov5目标检测的程序
