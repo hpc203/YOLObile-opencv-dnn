@@ -11,3 +11,8 @@ github代码地址是 https://github.com/CoCoPIE-Pruning/CoCoPIE-ModelZoo/tree/m
 链接: https://pan.baidu.com/s/1FsTGBoGuJNYSdGvFSw9Trg 提取码: mc9b
 
 把.weights文件下载完成之后放在本仓库代码的文件夹里，运行main_yolobile.py
+
+我曾想过运行convert_darknet.py文件，来转换https://github.com/ultralytics/yolov5 里的yolov5s.pt，
+但是我发现它得.pt文件里包含了网络结构和模型参数的，使用torch.load加载.pt文件
+就会报出“RuntimeError: yolov5s.pt is a zip archive (did you mean to use torch.jit.load()?)”这样的错误
+而且它的网络结构文件是.yaml格式的，不是.cfg格式的，这就无法用opencv的dnn模块做yolov5目标检测了
